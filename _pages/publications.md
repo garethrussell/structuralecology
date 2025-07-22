@@ -16,6 +16,10 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 }
 </style>
 
+### Color key
+<span color=#d0daf3>Light blue indicates a student under my supervision.<\span>
+<span color=#f1c832>Orange indicates a student under a colleague's supervision.<\span>
+
 <div class="jumbotron">
 ### Refereed journal articles
 {% bibliography --query @article %}
