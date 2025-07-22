@@ -19,7 +19,7 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 ### Color key
 <p><span style="color:#d0daf3">Light blue indicates a student under my supervision.</span><br>
 <span style="color:#f1c832">Orange indicates a student under a colleague's supervision.</span><br>
-<span style="color:#bd372f">Red indicates a faculty colleague at NJIT.</span></p>
+<span style="color:#ff5030">Red indicates a faculty colleague at NJIT.</span></p>
 
 <div class="jumbotron">
 ### Refereed journal articles
