@@ -38,7 +38,7 @@ I received my undergraduate degree in zoology from Oxford University in 1992 and
 
 After completing my doctoral studies I worked at the National Center for Ecological Analysis and Synthesis and Columbia University before joining the New Jersey Institute of Technology in 2005.
 
-### Current Students and Postdocs
+### Current team members
 
 <div class='jumbotron'>
 {% assign number_printed = 0 %}
@@ -84,7 +84,7 @@ After completing my doctoral studies I worked at the National Center for Ecologi
 {% endif %}
 </div>
 
-### Alumni
+### Lab alumni
 
 <div class="jumbotron">
 {% assign number_printed = 0 %}
