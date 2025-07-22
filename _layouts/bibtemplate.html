@@ -23,10 +23,7 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
-
-<!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+<div class="text-justify">{{reference | replace_first: 'Russell, G. J.', '<b>Russell, G. J.</b>' | replace_first: 'Russell, G.', '<b>Russell, G.</b>' }}</div> -->
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -44,18 +41,18 @@ pre{
 
 {% if entry.doi %}
 {% if entry.type == 'unpublished' %}
-<a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>
+<a href="{{ entry.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV Link</button></a>
 {% else %}
-<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+<a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI Link</button></a>
 {% endif %}
 {% endif %}
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
+<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">Citation</button>
 {% endif %}
 
 {% if entry.abstract %}
-<button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
+<button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">Abstract</button>
 {% endif %}
 
 {% if entry.abstract %}
