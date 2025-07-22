@@ -20,10 +20,15 @@ pre{
     word-wrap: break-word; 
     width:100%; overflow-x:auto;
 }
+
+    .my-student{
+        color: #D0DAF3; /* Light blue */
+    }
+    
 </style>
 
 
-<div class="text-nojustify">{{reference | replace_first: 'Russell, G. J.', '<b>Russell, G. J.</b>' | replace_first: 'Russell, G.', '<b>Russell, G.</b>' }}</div>
+<div class="text-nojustify">{{reference | replace_first: 'Russell, G. J.', '<b>Russell, G. J.</b>' | replace_first: 'Russell, G.', '<b>Russell, G.</b>' | replace_first: 'Schnell, J. K.', '<span class="my-student">Schnell, J. K.</span>' }}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
