@@ -24,11 +24,14 @@ pre{
     .my-student{
         color: #D0DAF3; /* Light blue */
     }
+    .other-student{
+        color: #F1C832; /* Orangey-yellow */
+    }
     
 </style>
 
 
-<div class="text-nojustify">{{reference | replace_first: 'Russell, G. J.', '<b>Russell, G. J.</b>' | replace_first: 'Russell, G.', '<b>Russell, G.</b>' | replace_first: 'Schnell, J.', '<span class="my-student">Schnell, J.</span>' | replace_first: 'Schnell, J. K.', '<span class="my-student">Schnell, J. K.</span>' | replace_first: 'Lubansky, L.', '<span class="my-student">Lubansky, L.</span>' | replace_first: 'Mashintonio, A.', '<span class="my-student">Mashintonio, A.</span>' | replace_first: 'Mashintonio, A. F.', '<span class="my-student">Mashintonio, A. F.</span>' | replace_first: 'Kornbluth, S.', '<span class="my-student">Kornbluth, S.</span>' | replace_first: 'Wiśniewska, M.', '<span class="my-student">Wiśniewska, M.</span>' | replace_first: 'Rosales, A.', '<span class="my-student">Rosales, A.</span>' }}</div>
+<div class="text-nojustify">{{reference | replace_first: 'Russell, G. J.', '<b>Russell, G. J.</b>' | replace_first: 'Russell, G.', '<b>Russell, G.</b>' | replace_first: 'Schnell, J.', '<span class="my-student">Schnell, J.</span>' | replace_first: 'Schnell, J. K.', '<span class="my-student">Schnell, J. K.</span>' | replace_first: 'Lubansky, L.', '<span class="my-student">Lubansky, L.</span>' | replace_first: 'Mashintonio, A.', '<span class="my-student">Mashintonio, A.</span>' | replace_first: 'Mashintonio, A. F.', '<span class="my-student">Mashintonio, A. F.</span>' | replace_first: 'Kornbluth, S.', '<span class="my-student">Kornbluth, S.</span>' | replace_first: 'Wiśniewska, M.', '<span class="my-student">Wiśniewska, M.</span>' | replace_first: 'Rosales, A.', '<span class="my-student">Rosales, A.</span>'  | replace_first: 'Saha, T.', '<span class="other-student">Saha, T.</span>' | replace_first: 'Liu, S.', '<span class="other-student">Liu, S.</span>' | replace_first: 'Kaplan, K.', '<span class="other-student">Kaplan, K.</span>' | replace_first: 'Kaplan, K. L.', '<span class="other-student">Kaplan, K. L.</span>' | replace_first: 'Mian, S.', '<span class="other-student">Mian, S.</span>' | replace_first: 'Evangelista, D.', '<span class="other-student">Evangelista, D.</span>' | replace_first: 'Evangelista, D. A.', '<span class="other-student">Evangelista, D. A.</span>' | replace_first: 'Si, X.', '<span class="other-student">Si, X.</span>' | replace_first: 'Basier, B.', '<span class="other-student">Basier, B.</span>' | replace_first: 'Adeney, J.', '<span class="other-student">Adeney, J.</span>' | replace_first: 'Adeney, J. M.', '<span class="other-student">Adeney, J. M.</span>' | replace_first: 'Cassey, P.', '<span class="other-student">Cassey, P.</span>' | replace_first: 'Ferraz, G.', '<span class="other-student">Ferraz, G.</span>' }}</div>
 
 {% assign bibtest = false %}
 {% if entry.file %}
