@@ -40,7 +40,7 @@ iframe {
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
 <h4>Wolfram Lanuage <b>Movement</b> package (for Mathematica, etc.)</h4>
-  <p>This is a collection of functions for
+  <p>This is a collection of functions for:</p>
     <ol>
       <li>Processing movement track data and landscape features into the numerical data matrix needed to perform conditional logisyic regression. These functions automate the processes of:</li>
       <ol>
@@ -53,7 +53,7 @@ iframe {
       </ol>
       <li>Fitting conditional logistic rgression and performing model selection</li>
   </ol>
-</p>
+  <p>This package is currently being revised to make use of the new and efficient Tabular data storage function. Contact me for more information.</p>
 <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
 <a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
