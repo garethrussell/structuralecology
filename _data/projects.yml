@@ -1,7 +1,7 @@
-- name: PROJECT: Deer stress from camera trap videos
-  desc: DESCRIPTION: Review camera trap footage of white-tailed deer, scoring the deer for health based on a rubric. It is part of a project to asses the the stresses associated with living on islands rather than the mainland.
+- name: Deer stress from camera trap videos
+  desc: Review camera trap footage of white-tailed deer, scoring the deer for health based on a rubric. It is part of a project to asses the the stresses associated with living on islands rather than the mainland.
   suitability: Suitable for undergraduates from almost any major. Could be an Independent Study.
-  experience: None required: you will be trained on how to assess the deer.
+  experience: None required. You will be trained on how to assess the deer.
 
 - name: Using AI image generation to preview natural landscaping
   desc: The idea is to take images of traditional urban plantings, such as those around campus, and use AI tools to re-render them with natural plants. These may be used in a future survey
