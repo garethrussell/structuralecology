@@ -26,6 +26,7 @@ These are often in areas outside the core topics described above.
 
 {% for project in site.data.projects %}
 <div class="jumbotron">
+<div class="col-md-12 col-sm-12">
 <h4>{{ project.name }}</h4>
 
 DESCRIPTION: {{ project.desc }}
