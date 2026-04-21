@@ -9,7 +9,7 @@ permalink: /research/
 
 <div class="jumbotron">
 {% for project in site.data.projects %}
-<b>{{ project.name }}</b>
+<h3>{{ project.name }}</h3>
 
 {{ project.desc }}
 
@@ -21,9 +21,9 @@ permalink: /research/
 
 {% for project in site.data.projects %}
 <div class="jumbotron">
-<b>{{ project.name }}</b>
+<h4>{{ project.name }}</h4>
 
-{{ project.desc }}
+DESCRIPTION: {{ project.desc }}
 
 {{ project.suitability }}
 
