@@ -11,7 +11,9 @@ permalink: /research/
 {% for project in site.data.projects %}
 <b>{{ project.name }}</b>
 
-{{ project.desc }}
+<p>DESCRIPTION: {{ project.desc }}</p>
+{{ project.suitability }}
+{{ project.experience }}
 {% endfor %}
 
 </div>
