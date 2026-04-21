@@ -7,27 +7,15 @@ permalink: /research/
 
 ## Research test
 
-<div class="jumbotron">
-{% for project in site.data.projects %}
-<h3>{{ project.name }}</h3>
-
-{{ project.desc }}
-
-{{ project.suitability }}
-
-{{ project.experience }}
-{% endfor %}
-</div>
-
 {% for project in site.data.projects %}
 <div class="jumbotron">
 <h4>{{ project.name }}</h4>
 
 DESCRIPTION: {{ project.desc }}
 
-{{ project.suitability }}
+SUITABILITY: {{ project.suitability }}
 
-{{ project.experience }}
+EXPERIENCE REQUIRED: {{ project.experience }}
 </div>
 {% endfor %}
 
