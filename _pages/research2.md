@@ -35,5 +35,6 @@ SUITABILITY: {{ project.suitability }}
 
 EXPERIENCE REQUIRED: {{ project.experience }}
 </div>
+</div>
 {% endfor %}
 
