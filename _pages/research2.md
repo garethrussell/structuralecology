@@ -21,11 +21,11 @@ We fit integrated step selection functions to animal movement data to build mode
 </div>
 
 <div class="jumbotron">
-<div class="col-md-6 col-sm-12">
+<div class="col-md-12 col-sm-12">
 
 <h4>Patterns in disperal limitations, and thus community composition, among islands</h4>
 
-PhD student Grant Harris is censusing the mammal communities on the coastal islands of Maine and showing that the different distribution limitations of different species lead to non-nested mammal communities not necessaily found on the mainland.
+PhD student Grant Harris is censusing the mammal communities on the coastal islands of Maine and showing that the different distribution limitations of different species lead to non-nested mammal communities not necessarily found on the mainland.
 
 </div>
 </div>
