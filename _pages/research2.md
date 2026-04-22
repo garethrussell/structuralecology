@@ -5,7 +5,7 @@ sitemap: false
 permalink: /research/
 ---
 
-## Lab Core Research: Movement aand Dispersal
+## Lab Core Research: Movement and Dispersal
 
 Our research group defines structural ecology as a subset of spatial ecology that focuses on the dynamic interaction between individual organisms and the structure and pattern of their surroundings. We ask: What do they perceive? If they can move, how do they navigate? Find each other? Avoid risk? And ultimately, how do these translate into broader population and species-level dynamics?
 
@@ -13,13 +13,19 @@ We ask these questions because much of spatial ecology, such as biogeography and
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Combined social and environmental drivers of movement.</h4>
+<h4>Combined social and environmental drivers of movement</h4>
 
-We fit integrated step selection functions to animal movement data to build models of their response to their surrondings, including both traditional environmental features (vegetation, water, etc.) and social
+We fit integrated step selection functions to animal movement data to build models of their response to their surrondings, including both traditional environmental features (vegetation, water, etc.) and social features (the location of nearby conspecifics). Over the years the lab has looked at data on elephants, bears, humpback whales, sheep, goats and baboons.
 
-<h4>Movement and Dispersal</h4>
+</div>
+</div>
 
-Test.
+<div class="jumbotron">
+<div class="col-md-6 col-sm-12">
+
+<h4>Patterns in disperal limitations, and thus community composition, among islands</h4>
+
+PhD student Grant Harris is censusing the mammal communities on the coastal islands of Maine and showing that the different distribution limitations of different species lead to non-nested mammal communities not necessaily found on the mainland.
 
 </div>
 </div>
