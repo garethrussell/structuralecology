@@ -4,6 +4,11 @@
   experience: None required. You will be trained on how to assess the deer.
 
 - name: Using AI image generation to preview natural landscaping
-  desc: The idea is to take images of traditional urban plantings, such as those around campus, and use AI tools to re-render them with natural plants. These may be used in a future survey
+  desc: The idea is to take images of traditional urban plantings, such as those around campus, and use AI tools to re-render them with natural plants. These may be used in a future survey.
   suitability: Suitable for undergraduates from CS or a related field, or anyone who has experience with AI image generation.
   experience: This project requires an existing background in AI image tools, or at least a willingness to learn.
+
+- name: Large scale, geo-referenced 'world-locking' for AR (sub-project)
+  desc: Is it possible to achieve a stable world lock from a long-range landscape view? For example, if I am at the top of a mountain, with other peaks stretching out in front of me, can we a) stably lock the virtual environment to the horizon, and b) combine GPS/compass info about where I am and which direction I am pointing with a known terrain map to figure out what those peaks are and thus also geo-reference the virtual world. This is a pre-requisite for an over-arching goal to enable a stable, hopefully immersive overlay of spatial data on real-world landscapes.
+  suitability: Suitable for undergraduates from CS or a related field who have experience with AR/MR/XR tools.
+  experience: This project requires an existing background in AR/MR/XR development, e.g., using Apple's ARKit or Android ARCore, or at least a willingness to learn.
