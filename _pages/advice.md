@@ -2,7 +2,7 @@
 title: "Advice"
 layout: gridlay
 sitemap: false
-permalink: /research/
+permalink: /advice/
 ---
 
 ## Advice for High School and Undergraduate Students
